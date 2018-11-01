@@ -2,21 +2,39 @@
 <html>
     <head>
         <title>Gobble Gobble</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <style type="text/css">
             body {
-                background: black;
+                background-color: #ebba38;
+                background-image: linear-gradient(#bdb850, #ebba38);
+                background-repeat: no-repeat;
+                font-family: 'Roboto', sans-serif;
+                padding-top: 50px;
                 text-align: center;
+            }
+            
+            header {
+                color: #623004;
+            }
+
+            iframe {
+                border: 5px solid #a26b35;
             }
         </style>
     </head>
     <body>
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/2bH0rULAHEg" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
+        <header>
+            <h1>Gobble Gobble</h1>
+        </header>
+        <div>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/2bH0rULAHEg" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
     </body>
 </html>
